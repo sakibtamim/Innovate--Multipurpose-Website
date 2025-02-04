@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* nav part start */
+#nav {
+  height: 64px;
+  margin-top: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.container {
+  width: 1408px;
+  margin: 0 auto;
+}
+.nav_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo img {
+  width: 100%;
+}
+
+.nav_menu ul {
+  display: flex;
+  gap: 0 48px;
+}
+.nav_menu ul li {
+  position: relative;
+}
+.nav_menu ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #29313d;
+  font-family: "Open Sans", serif;
+}
+.nav_menu ul li a i {
+  padding-left: 8px;
+  color: #29313d;
+}
+.nav_menu .btn_contact {
+  margin-left: 226px;
+}
+.nav_menu .btn_contact a {
+  padding: 14px 28px;
+  background-color: #ff5538;
+  border-radius: 18px;
+  color: #fff;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+.nav_menu .btn_contact:hover a {
+  color: #ff5538;
+  background-color: transparent;
+  /* border: 1px solid #ff5538; */
+}
+.nav_menu .btn_contact:hover ul li a {
+  color: #29313d;
+  border: none;
+}
+.nav_menu .btn_contact ul li a:hover {
+  color: #ff5538;
+}
+.nav_menu .btn_contact ul li a {
+  background-color: transparent;
+  color: #29313d;
+}
+.nav_menu ul li ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  position: absolute;
+  padding: 20px 0;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+}
+.nav_menu ul li:hover ul {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+.nav_menu ul li:hover a {
+  color: #ff5538;
+}
+.nav_menu ul li:hover ul li a {
+  color: #29313d;
+}
+.nav_menu ul li ul li a:hover {
+  color: #ff5538;
+}
+/* nav part end */
+
+/* banner part start */
+#banner {
+  padding-top: 293px;
+  padding-bottom: 297px;
+  background: url("../img/banner01.png") no-repeat center/ cover;
+}
+.banner_main {
+  text-align: center;
+  text-transform: capitalize;
+}
+.banner_main h1 {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 64px;
+  font-weight: bold;
+  color: #29313d;
+  font-family: "Poppins", serif;
+  line-height: 130%;
+  padding-bottom: 24px;
+}
+.banner_main p {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: normal;
+  color: #29313d;
+  font-family: "Nunito", serif;
+  line-height: 200%;
+  padding-bottom: 44px;
+}
+.banner_main .btns {
+  display: flex;
+  justify-content: center;
+  gap: 0 24px;
+}
+.banner_main .btns a {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+  color: #fff;
+  padding: 14px 28px;
+  background-color: #ff5538;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+.btns .right a {
+  background-color: transparent;
+  color: #ff5538;
+  border: 1px solid #ff5538;
+}
+.banner_body {
+  width: 1408px;
+  position: absolute;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.ban_inner {
+  width: 32%;
+  padding: 40px 0;
+  background-color: #fff;
+  border~
+}
+.ban_item {
+  padding-left: 30px;
+  padding-right: 46px;
+  text-transform: capitalize;
+}
+.ban_item img {
+  padding-bottom: 34px;
+}
+.ban_item h2 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 16px;
+}
+.ban_item p {
+  font-size: 18px;
+  font-family: "Nunito", serif;
+  font-weight: normal;
+  color: #29313d;
+}
+/* banner part end */
+
+/* connect part start */
+#connect {
+  padding-top: 280px;
+  background-color: #fb4300cc;
+}
+/* connect part end */
