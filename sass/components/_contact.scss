@@ -1,0 +1,36 @@
+#contact {
+  padding: 100px 0;
+  background-color: #ffd7c8;
+  .con_head {
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(41, 49, 61, 0.21);
+    h6 {
+      font-size: 20px;
+      font-weight: normal;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 7px;
+      text-transform: capitalize;
+    }
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+    }
+    a {
+      @include btn;
+      color: #fff;
+      background-color: #ff5538;
+    }
+  }
+  .con_body {
+    padding-top: 24px;
+    p {
+      font-size: 20px;
+      font-weight: normal;
+      font-family: $nunito_font;
+      color: #29313d;
+    }
+  }
+}

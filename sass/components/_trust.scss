@@ -1,0 +1,67 @@
+#trust {
+  padding: 120px 0;
+  .trust_head {
+    padding-bottom: 60px;
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      text-transform: capitalize;
+    }
+  }
+
+  .card {
+    border: none;
+    .card-body {
+      padding: 20px 0;
+      background-color: #fdf9f8;
+    }
+  }
+}
+#customer {
+  padding: 120px 0;
+  background-color: #fdf9f8;
+  .customer_txt {
+    h3 {
+      font-size: 48px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 60px;
+    }
+    .cus_pic {
+      padding-bottom: 60px;
+    }
+    p {
+      font-size: 20px;
+      font-weight: normal;
+      font-family: $nunito_font;
+      color: #29313d;
+      padding-bottom: 60px;
+    }
+    .cus_btn {
+      h3 {
+        font-size: 36px;
+        font-weight: 600;
+        font-family: $opensans_font;
+        color: #29313d;
+        padding-bottom: 0;
+      }
+      i {
+        padding: 20px;
+        background-color: #ffddd7;
+        border-radius: 10px;
+        color: #130f26;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        &:hover {
+          background-color: #ff5538;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
