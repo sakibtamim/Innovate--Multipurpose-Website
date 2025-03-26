@@ -1,0 +1,13 @@
+nav {
+  .nav_menu {
+    ul li a {
+      font-size: 180px;
+      font-weight: 600;
+      font-family: $opensans_font;
+      color: #29313d;
+      &.active {
+        color: aqua !important;
+      }
+    }
+  }
+}
