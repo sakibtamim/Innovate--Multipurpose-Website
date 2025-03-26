@@ -1,13 +1,38 @@
 nav {
+  margin-top: 30px;
   .nav_menu {
-    ul li a {
-      font-size: 180px;
-      font-weight: 600;
-      font-family: $opensans_font;
-      color: #29313d;
-      &.active {
-        color: aqua !important;
+    ul {
+      li {
+        a {
+          padding-left: 24px !important;
+          padding-right: 24px !important;
+          font-size: 18px;
+          font-weight: 600;
+          font-family: $opensans_font;
+          color: #29313d;
+          &.active {
+            color: #ff5538 !important;
+          }
+        }
+
+        ul li a {
+          font-size: 18px;
+          font-weight: 600;
+          font-family: $opensans_font;
+          color: #29313d;
+          text-align: center;
+          &:hover {
+            color: #ff5538 !important;
+          }
+        }
       }
+    }
+  }
+  .nav_btn {
+    a {
+      @include btn;
+      color: #fff;
+      background-color: #ff5538;
     }
   }
 }

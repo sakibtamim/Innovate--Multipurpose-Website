@@ -1,0 +1,70 @@
+#banner {
+  padding-top: 293px;
+  padding-bottom: 297px;
+  background: url(../img/banner01.png) no-repeat center / cover;
+  .ban_head {
+    h1 {
+      font-size: 64px;
+      font-weight: bold;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 24px;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $nunito_font;
+      color: #29313d;
+      padding: 0 100px 44px;
+      text-transform: capitalize;
+      margin-bottom: 0;
+    }
+    .ban_btns {
+      a {
+        @include btn;
+        border: 1px solid #ff5538;
+        color: #ff5538;
+        &:hover {
+          background-color: #ff5538;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+#banner_card {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+
+  .ban_card {
+    margin-top: -160px;
+    .ban_inner {
+      background-color: #fff;
+      padding: 40px 20px 40px 30px;
+      img {
+        padding-bottom: 34px;
+      }
+      h3 {
+        font-size: 24px;
+        font-weight: 600;
+        font-family: $poppins_font;
+        color: #29313d;
+        padding-bottom: 16px;
+        text-transform: capitalize;
+      }
+      p {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: $nunito_font;
+        color: #29313d;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

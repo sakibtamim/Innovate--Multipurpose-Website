@@ -4,6 +4,18 @@ $opensans_font: "Open Sans", serif;
 $poppins_font: "Poppins", serif;
 $nunito_font: "Nunito", serif;
 
+@mixin btn {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: $nunito_font;
+  padding: 14px 28px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
 *,
 h1,
 h2,

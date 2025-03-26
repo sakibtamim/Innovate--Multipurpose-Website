@@ -23,12 +23,171 @@ img {
   vertical-align: middle;
 }
 
+nav {
+  margin-top: 30px;
+}
 nav .nav_menu ul li a {
-  font-size: 180px;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  font-size: 18px;
   font-weight: 600;
   font-family: "Open Sans", serif;
   color: #29313d;
 }
 nav .nav_menu ul li a.active {
-  color: aqua !important;
+  color: #ff5538 !important;
+}
+nav .nav_menu ul li ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  color: #29313d;
+  text-align: center;
+}
+nav .nav_menu ul li ul li a:hover {
+  color: #ff5538 !important;
+}
+nav .nav_btn a {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+  padding: 14px 28px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  color: #fff;
+  background-color: #ff5538;
+}
+
+#banner {
+  padding-top: 293px;
+  padding-bottom: 297px;
+  background: url(../img/banner01.png) no-repeat center/cover;
+}
+#banner .ban_head h1 {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 24px;
+  text-transform: capitalize;
+}
+#banner .ban_head p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  padding: 0 100px 44px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+#banner .ban_head .ban_btns a {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+  padding: 14px 28px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  border: 1px solid #ff5538;
+  color: #ff5538;
+}
+#banner .ban_head .ban_btns a:hover {
+  background-color: #ff5538;
+  color: #fff;
+}
+
+#banner_card {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+#banner_card .ban_card {
+  margin-top: -160px;
+}
+#banner_card .ban_card .ban_inner {
+  background-color: #fff;
+  padding: 40px 20px 40px 30px;
+}
+#banner_card .ban_card .ban_inner img {
+  padding-bottom: 34px;
+}
+#banner_card .ban_card .ban_inner h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 16px;
+  text-transform: capitalize;
+}
+#banner_card .ban_card .ban_inner p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  text-transform: capitalize;
+}
+
+#digital {
+  margin-top: 280px;
+}
+#digital .digi_head {
+  padding-bottom: 7px;
+}
+#digital .digi_head h6 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: #ff5538;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+#digital .digi_head h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  text-transform: capitalize;
+}
+#digital .digi_body {
+  padding: 200px 0;
+  background: url(../img/digital_bg.png) no-repeat center/cover;
+}
+#digital .digi_body h3 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  padding-right: 50px;
+}
+#digital .digi_body p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  text-transform: capitalize;
+  padding-bottom: 48px;
+  padding-right: 150px;
+}
+#digital .digi_body a {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+  padding: 14px 28px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  color: #fff;
+  background-color: #ff5538;
 }/*# sourceMappingURL=style.css.map */

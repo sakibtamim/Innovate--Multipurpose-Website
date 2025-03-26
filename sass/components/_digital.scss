@@ -1,0 +1,48 @@
+#digital {
+  margin-top: 280px;
+  .digi_head {
+    padding-bottom: 7px;
+    h6 {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: $poppins_font;
+      color: #ff5538;
+      text-transform: capitalize;
+      padding-bottom: 10px;
+    }
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      text-transform: capitalize;
+    }
+  }
+  .digi_body {
+    padding: 200px 0;
+    background: url(../img/digital_bg.png) no-repeat center / cover;
+    h3 {
+      font-size: 36px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 20px;
+      text-transform: capitalize;
+      padding-right: 50px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $nunito_font;
+      color: #29313d;
+      text-transform: capitalize;
+      padding-bottom: 48px;
+      padding-right: 150px;
+    }
+    a {
+      @include btn;
+      color: #fff;
+      background-color: #ff5538;
+    }
+  }
+}
