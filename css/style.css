@@ -503,6 +503,27 @@ nav .nav_btn a {
   font-family: "Poppins", serif;
   color: #29313d;
 }
+#about_work .about_work_body .card {
+  border: none;
+}
+#about_work .about_work_body img {
+  padding-bottom: 38px;
+}
+#about_work .about_work_body h5 {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+}
+#about_work .about_work_body p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  margin-bottom: 0;
+}
 
 #contact {
   padding: 100px 0;
