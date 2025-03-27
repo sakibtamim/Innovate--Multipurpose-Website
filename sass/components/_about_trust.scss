@@ -1,0 +1,21 @@
+#about_trust {
+  padding: 120px 0 180px;
+  .trust_head {
+    padding-bottom: 60px;
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      text-transform: capitalize;
+    }
+  }
+
+  .card {
+    border: none;
+    .card-body {
+      padding: 20px 0;
+      background-color: #fdf9f8;
+    }
+  }
+}
