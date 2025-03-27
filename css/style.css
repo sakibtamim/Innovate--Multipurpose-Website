@@ -37,6 +37,9 @@ nav .nav_menu ul li a {
 nav .nav_menu ul li a.active {
   color: #ff5538 !important;
 }
+nav .nav_menu ul li:hover > ul {
+  display: block;
+}
 nav .nav_menu ul li ul li a {
   font-size: 18px;
   font-weight: 600;

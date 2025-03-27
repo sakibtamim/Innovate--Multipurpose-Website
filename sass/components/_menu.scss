@@ -14,7 +14,9 @@ nav {
             color: #ff5538 !important;
           }
         }
-
+        &:hover > ul {
+          display: block;
+        }
         ul li a {
           font-size: 18px;
           font-weight: 600;
@@ -36,3 +38,6 @@ nav {
     }
   }
 }
+// .dropdown:hover > .dropdown-menu {
+//    display: block;
+// }
