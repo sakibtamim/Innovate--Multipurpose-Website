@@ -1,0 +1,44 @@
+#about_work_count {
+  padding: 120px 0;
+  background-color: #fdf9f8;
+  .about_wo_count_body {
+    padding: 74px 60px;
+    background-color: #fff;
+    h5 {
+      font-size: 40px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 8px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $nunito_font;
+      color: #29313d;
+    }
+  }
+  .about_wo_count_txt {
+    padding-left: 48px;
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $nunito_font;
+      color: #29313d;
+      padding-bottom: 40px;
+      padding-right: 20px;
+    }
+    a {
+      @include btn;
+      color: #fff;
+      background-color: #ff5538;
+    }
+  }
+}
