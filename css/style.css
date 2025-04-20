@@ -5,7 +5,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   padding: 0;
   margin: 0;
   text-transform: capitalize;
@@ -721,6 +722,260 @@ nav .nav_btn a {
 }
 #about_team_body .about_team_body .card .card-body .circle_btn:hover i {
   color: #fff;
+}
+
+#service_ban {
+  position: relative;
+  padding-top: 208px;
+  padding-bottom: 120px;
+  background-color: #fbf3f0;
+}
+#service_ban .vertical_text {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: rgba(41, 49, 61, 0.201);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#service_ban .service_ban_head {
+  padding-bottom: 20px;
+}
+#service_ban .service_ban_head a {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#service_ban .service_ban_head i {
+  padding: 0 4px;
+}
+#service_ban .service_ban_body h1 {
+  font-size: 58px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+#service_ban .service_ban_txt {
+  margin-left: 30px;
+}
+#service_ban .service_ban_txt p {
+  position: relative;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#service_ban .service_ban_txt p::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -20px;
+  width: 2px;
+  height: 100%;
+  background-color: #29313d;
+}
+
+#ser_offer {
+  padding: 120px 0;
+}
+#ser_offer .head {
+  padding-bottom: 60px;
+}
+#ser_offer .head h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 14px;
+}
+#ser_offer .head p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#ser_offer .body .card {
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+#ser_offer .body .card img {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+#ser_offer .body .card-body p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 14px;
+  margin-bottom: 0;
+}
+#ser_offer .body .card-body h5 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+
+#ser_work_count {
+  padding: 0 0 120px;
+  background-color: #fdf9f8;
+}
+#ser_work_count #ser_work_count_header {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 224px;
+  background-color: #f3f3f3;
+}
+#ser_work_count #ser_work_count_header .head h2 {
+  font-size: 48px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  color: #29313d;
+  padding-bottom: 20px;
+}
+#ser_work_count #ser_work_count_header .head p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  padding: 0 50px;
+}
+#ser_work_count #ser_work_count_header .count {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-top: 66px;
+}
+#ser_work_count #ser_work_count_header .count .count_inner {
+  padding: 74px 0;
+  background-color: #fff;
+}
+#ser_work_count #ser_work_count_header .count .count_inner h5 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 8px;
+}
+#ser_work_count #ser_work_count_header .count .count_inner p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#ser_work_count .experience {
+  padding-top: 180px;
+}
+#ser_work_count .experience h3 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 60px;
+}
+#ser_work_count .experience h5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 16px;
+}
+#ser_work_count .experience p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#ser_work_count .experience .inner {
+  padding: 20px 100px 20px 20px;
+  background-color: #fcf5f3;
+}
+
+#service_price {
+  padding: 118px 0 280px;
+  margin-bottom: 552px;
+  background-color: #edf3f7;
+}
+#service_price h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+#service_price .price {
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+  left: 0;
+}
+#service_price .price .price_plan {
+  padding: 36px 60px 14px 24px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 5px rgb(246, 246, 246);
+}
+#service_price .price .price_plan h5 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 16px;
+}
+#service_price .price .price_plan p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  padding-bottom: 34px;
+}
+#service_price .price .price_plan h4 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 48px;
+}
+#service_price .price .price_plan a {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+  padding: 14px 28px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  background-color: #ff5538;
+  color: #fff;
+  margin-bottom: 48px;
+}
+#service_price .price .price_plan h6 {
+  padding-bottom: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#service_price .price .price_plan h6 img {
+  margin-right: 16px;
 }
 
 #contact {

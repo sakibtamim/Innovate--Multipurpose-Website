@@ -1,0 +1,63 @@
+#service_price {
+  padding: 118px 0 280px;
+  margin-bottom: 552px;
+  background-color: #edf3f7;
+  h2 {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: $poppins_font;
+    color: #29313d;
+  }
+  .price {
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    left: 0;
+    .price_plan {
+      padding: 36px 60px 14px 24px;
+      background-color: #fff;
+      -webkit-box-shadow: 0px 0px 5px 5px rgba(246, 246, 246, 1);
+      -moz-box-shadow: 0px 0px 5px 5px rgba(246, 246, 246, 1);
+      box-shadow: 0px 0px 5px 5px rgba(246, 246, 246, 1);
+
+      h5 {
+        font-size: 36px;
+        font-weight: 600;
+        font-family: $poppins_font;
+        color: #29313d;
+        padding-bottom: 16px;
+      }
+      p {
+        font-size: 18px;
+        font-weight: normal;
+        font-family: $nunito_font;
+        color: #29313d;
+        padding-bottom: 34px;
+      }
+      h4 {
+        font-size: 48px;
+        font-weight: 600;
+        font-family: $poppins_font;
+        color: #29313d;
+        padding-bottom: 48px;
+      }
+      a {
+        @include btn;
+        background-color: #ff5538;
+        color: #fff;
+        margin-bottom: 48px;
+      }
+      h6 {
+        padding-bottom: 24px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: $nunito_font;
+        color: #29313d;
+
+        img {
+          margin-right: 16px;
+        }
+      }
+    }
+  }
+}
