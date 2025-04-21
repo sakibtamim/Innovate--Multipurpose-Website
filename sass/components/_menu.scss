@@ -12,6 +12,7 @@ nav {
           color: #29313d;
           &.active {
             color: #ff5538 !important;
+            background-color: transparent;
           }
         }
         &:hover > ul {

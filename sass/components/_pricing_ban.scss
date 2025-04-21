@@ -1,4 +1,4 @@
-#service_ban {
+#price_ban {
   position: relative;
   padding-top: 208px;
   padding-bottom: 120px;
@@ -21,7 +21,7 @@
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
   }
-  .service_ban_head {
+  .price_ban_head {
     padding-bottom: 20px;
     a {
       font-size: 24px;
@@ -36,20 +36,11 @@
       padding: 0 4px;
     }
   }
-  .service_ban_body {
+  .price_ban_body {
     h1 {
       font-size: 58px;
       font-weight: bold;
       font-family: $poppins_font;
-      color: #29313d;
-    }
-  }
-  .service_ban_txt {
-    margin-left: 30px;
-    p {
-      font-size: 18px;
-      font-weight: normal;
-      font-family: $nunito_font;
       color: #29313d;
     }
   }

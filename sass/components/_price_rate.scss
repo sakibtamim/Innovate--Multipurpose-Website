@@ -1,4 +1,4 @@
-#service_price {
+#price_rate {
   padding: 118px 0 280px;
   margin-bottom: 552px;
   background-color: #edf3f7;
@@ -8,6 +8,14 @@
       font-weight: 600;
       font-family: $poppins_font;
       color: #29313d;
+    }
+    h6 {
+      font-size: 20px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #fd5f36;
+      padding-bottom: 8px;
+      text-transform: uppercase;
     }
   }
   .price {

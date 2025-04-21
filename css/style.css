@@ -38,6 +38,7 @@ nav .nav_menu ul li a {
 }
 nav .nav_menu ul li a.active {
   color: #ff5538 !important;
+  background-color: transparent;
 }
 nav .nav_menu ul li:hover > ul {
   display: block;
@@ -391,6 +392,9 @@ nav .nav_btn a {
   font-weight: normal;
   font-family: "Nunito", serif;
   color: #29313d;
+}
+#about_ban .about_ban_head .active {
+  font-weight: bold;
 }
 #about_ban .about_ban_head i {
   padding: 0 4px;
@@ -757,6 +761,9 @@ nav .nav_btn a {
   font-family: "Nunito", serif;
   color: #29313d;
 }
+#service_ban .service_ban_head .active {
+  font-weight: bold;
+}
 #service_ban .service_ban_head i {
   padding: 0 4px;
 }
@@ -770,20 +777,10 @@ nav .nav_btn a {
   margin-left: 30px;
 }
 #service_ban .service_ban_txt p {
-  position: relative;
   font-size: 18px;
   font-weight: normal;
   font-family: "Nunito", serif;
   color: #29313d;
-}
-#service_ban .service_ban_txt p::after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: -20px;
-  width: 2px;
-  height: 100%;
-  background-color: #29313d;
 }
 
 #ser_offer {
@@ -839,44 +836,44 @@ nav .nav_btn a {
   padding: 0 0 120px;
   background-color: #fdf9f8;
 }
-#ser_work_count #ser_work_count_header {
+#ser_work_count .ser_work_count_header {
   position: relative;
   padding-top: 120px;
   padding-bottom: 224px;
   background-color: #f3f3f3;
 }
-#ser_work_count #ser_work_count_header .head h2 {
+#ser_work_count .ser_work_count_header .head h2 {
   font-size: 48px;
   font-family: "Poppins", serif;
   font-weight: 600;
   color: #29313d;
   padding-bottom: 20px;
 }
-#ser_work_count #ser_work_count_header .head p {
+#ser_work_count .ser_work_count_header .head p {
   font-size: 18px;
   font-weight: normal;
   font-family: "Nunito", serif;
   color: #29313d;
   padding: 0 50px;
 }
-#ser_work_count #ser_work_count_header .count {
+#ser_work_count .ser_work_count_header .count {
   width: 100%;
   position: absolute;
   left: 0;
   margin-top: 66px;
 }
-#ser_work_count #ser_work_count_header .count .count_inner {
+#ser_work_count .ser_work_count_header .count .count_inner {
   padding: 74px 0;
   background-color: #fff;
 }
-#ser_work_count #ser_work_count_header .count .count_inner h5 {
+#ser_work_count .ser_work_count_header .count .count_inner h5 {
   font-size: 40px;
   font-weight: 600;
   font-family: "Poppins", serif;
   color: #29313d;
   padding-bottom: 8px;
 }
-#ser_work_count #ser_work_count_header .count .count_inner p {
+#ser_work_count .ser_work_count_header .count .count_inner p {
   font-size: 18px;
   font-weight: normal;
   font-family: "Nunito", serif;
@@ -915,7 +912,7 @@ nav .nav_btn a {
   margin-bottom: 552px;
   background-color: #edf3f7;
 }
-#service_price h2 {
+#service_price .head h2 {
   font-size: 48px;
   font-weight: 600;
   font-family: "Poppins", serif;
@@ -976,6 +973,296 @@ nav .nav_btn a {
 }
 #service_price .price .price_plan h6 img {
   margin-right: 16px;
+}
+
+#portfolio_ban {
+  position: relative;
+  padding-top: 208px;
+  padding-bottom: 120px;
+  background-color: #fbf3f0;
+}
+#portfolio_ban .vertical_text {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: rgba(41, 49, 61, 0.201);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#portfolio_ban .portfolio_ban_head {
+  padding-bottom: 20px;
+}
+#portfolio_ban .portfolio_ban_head a {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#portfolio_ban .portfolio_ban_head .active {
+  font-weight: bold;
+}
+#portfolio_ban .portfolio_ban_head i {
+  padding: 0 4px;
+}
+#portfolio_ban .portfolio_ban_body h1 {
+  font-size: 58px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+#portfolio_ban .portfolio_ban_txt {
+  margin-left: 30px;
+}
+#portfolio_ban .portfolio_ban_txt p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+
+#portfo_work {
+  padding: 60px 0 120px;
+}
+#portfo_work .head {
+  padding-bottom: 48px;
+}
+#portfo_work .head h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+#portfo_work .work_menu ul li {
+  padding: 0 30px;
+}
+#portfo_work .work_menu ul li:first-child {
+  padding-left: 0;
+}
+#portfo_work .work_menu ul li button {
+  color: #29313d;
+  padding: 0;
+}
+#portfo_work .work_menu ul li .active {
+  color: #ff5538;
+  background-color: transparent;
+}
+#portfo_work .work_menu_body {
+  padding-top: 60px;
+}
+#portfo_work .work_menu_body .body .card {
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+#portfo_work .work_menu_body .body .card img {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+#portfo_work .work_menu_body .body .card-body p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 14px;
+  margin-bottom: 0;
+}
+#portfo_work .work_menu_body .body .card-body h5 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+
+#price_ban {
+  position: relative;
+  padding-top: 208px;
+  padding-bottom: 120px;
+  background-color: #fbf3f0;
+}
+#price_ban .vertical_text {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: rgba(41, 49, 61, 0.201);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#price_ban .price_ban_head {
+  padding-bottom: 20px;
+}
+#price_ban .price_ban_head a {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#price_ban .price_ban_head .active {
+  font-weight: bold;
+}
+#price_ban .price_ban_head i {
+  padding: 0 4px;
+}
+#price_ban .price_ban_body h1 {
+  font-size: 58px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+
+#price_rate {
+  padding: 118px 0 280px;
+  margin-bottom: 552px;
+  background-color: #edf3f7;
+}
+#price_rate .head h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+#price_rate .head h6 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #fd5f36;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+#price_rate .price {
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+  left: 0;
+}
+#price_rate .price .price_plan {
+  padding: 36px 60px 14px 24px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 5px rgb(246, 246, 246);
+}
+#price_rate .price .price_plan h5 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 16px;
+}
+#price_rate .price .price_plan p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  padding-bottom: 34px;
+}
+#price_rate .price .price_plan h4 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 48px;
+}
+#price_rate .price .price_plan a {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+  padding: 14px 28px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+  background-color: #ff5538;
+  color: #fff;
+  margin-bottom: 48px;
+}
+#price_rate .price .price_plan h6 {
+  padding-bottom: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#price_rate .price .price_plan h6 img {
+  margin-right: 16px;
+}
+
+#faq_ban {
+  position: relative;
+  padding-top: 208px;
+  padding-bottom: 120px;
+  background-color: #fbf3f0;
+}
+#faq_ban .vertical_text {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: rgba(41, 49, 61, 0.201);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#faq_ban .faq_ban_head {
+  padding-bottom: 20px;
+}
+#faq_ban .faq_ban_head a {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+}
+#faq_ban .faq_ban_head .active {
+  font-weight: bold;
+}
+#faq_ban .faq_ban_head i {
+  padding: 0 4px;
+}
+#faq_ban .faq_ban_body h1 {
+  font-size: 58px;
+  font-weight: bold;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  padding-bottom: 20px;
+}
+#faq_ban .faq_ban_body p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  color: #29313d;
+  padding: 0 80px;
 }
 
 #contact {
