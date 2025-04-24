@@ -1,0 +1,80 @@
+#blog_post {
+  padding: 120px 0;
+  .body {
+    padding-bottom: 120px;
+    h2 {
+      font-size: 48px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $nunito_font;
+      color: #29313d;
+      padding-bottom: 40px;
+    }
+    .author {
+      img {
+        padding-right: 16px;
+      }
+      h6 {
+        font-size: 16px;
+        font-weight: normal;
+        font-family: $nunito_font;
+        color: #29313d;
+        display: inline;
+      }
+      p {
+        font-size: 16px;
+        font-weight: normal;
+        font-family: $nunito_font;
+        color: #29313d;
+        display: inline;
+      }
+    }
+  }
+  .main {
+    .card {
+      border: none;
+      .card-body {
+        padding: 20px 0 0 0;
+        h5 {
+          font-size: 24px;
+          font-weight: 600;
+          font-family: $poppins_font;
+          color: #29313d;
+          padding-bottom: 8px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: normal;
+          font-family: $nunito_font;
+          color: #29313d;
+          padding-bottom: 18px;
+        }
+        .author {
+          img {
+            padding-right: 16px;
+          }
+          h6 {
+            font-size: 16px;
+            font-weight: normal;
+            font-family: $nunito_font;
+            color: #29313d;
+            display: inline;
+          }
+          p {
+            font-size: 16px;
+            font-weight: normal;
+            font-family: $nunito_font;
+            color: #29313d;
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+}

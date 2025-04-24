@@ -1,0 +1,53 @@
+#contact_ban {
+  position: relative;
+  padding-top: 208px;
+  padding-bottom: 120px;
+  background-color: #fbf3f0;
+  .vertical_text {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: $poppins_font;
+    color: rgba(41, 49, 61, 0.201);
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+  }
+  .contact_ban_head {
+    padding-bottom: 20px;
+    a {
+      font-size: 24px;
+      font-weight: normal;
+      font-family: $nunito_font;
+      color: #29313d;
+    }
+    .active {
+      font-weight: bold;
+    }
+    i {
+      padding: 0 4px;
+    }
+  }
+  .contact_ban_body {
+    h1 {
+      font-size: 58px;
+      font-weight: bold;
+      font-family: $poppins_font;
+      color: #29313d;
+    }
+  }
+  p {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: $nunito_font;
+    color: #29313d;
+  }
+}

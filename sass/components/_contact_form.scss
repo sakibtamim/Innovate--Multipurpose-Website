@@ -1,0 +1,108 @@
+#cotnact_form {
+  padding: 80px 0 148px;
+  .cotnact_form {
+    h2 {
+      font-size: 36px;
+      font-weight: 600;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 64px;
+    }
+    label {
+      font-size: 24px;
+      font-weight: 500;
+      font-family: $poppins_font;
+      color: #29313d;
+      padding-bottom: 25px;
+    }
+    input {
+      width: 100%;
+      height: 100px;
+      padding-left: 20px;
+      border-radius: 10px;
+      background-color: #fbf3f0;
+      border: none;
+      margin-bottom: 36px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 368px;
+      padding-left: 20px;
+      border-radius: 10px;
+      background-color: #fbf3f0;
+      border: none;
+      margin-bottom: 36px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+    }
+    button {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: $poppins_font;
+      color: #fff;
+      background-color: #ff5538;
+      padding: 30px 60px;
+      border-radius: 20px;
+      border: none;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+  }
+  .contact_body {
+    img {
+      padding-bottom: 96px;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 500;
+      font-family: $poppins_font;
+      padding-bottom: 40px;
+      i {
+        font-size: 30px;
+        padding-right: 40px;
+        color: #ff5538;
+      }
+    }
+
+    .socials {
+      .circle {
+        position: relative;
+        height: 68px;
+        width: 68px;
+        border-radius: 50%;
+        background-color: #ffd7c8;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        &:hover {
+          background-color: #ff5538;
+        }
+        &:hover i {
+          color: #fff;
+        }
+        i {
+          position: absolute;
+          padding: 0;
+          font-size: 24px;
+          color: #000;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+}
